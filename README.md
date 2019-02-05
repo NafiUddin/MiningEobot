@@ -23,7 +23,8 @@ Write and run by click enter the scripts/ commands below :
 - cd cpuminer
 - apt install automake autoconf pkg-config libcurl14-openssl-dev libjansson-dev libssl-dev libgmp-dev make g++
 - git clone https://github.com/tpruvot/cpuminer-multi
-- ./build.sh
+- ./build.sh 
+ 
 finish.
 
 now you can try your pool (eobot account) some like this :
