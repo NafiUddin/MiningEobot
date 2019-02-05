@@ -28,6 +28,7 @@ Write and run by click enter the scripts/ commands below :
 finish.
 
 
++
 now you can try your pool (eobot account) some like this :
 - ./cpuminer -a x11 -o stratum+tcp://x11.eobot.com:5555 -u eobot.991010 -p x -t 4
 --  -a = algorithm
@@ -37,6 +38,7 @@ now you can try your pool (eobot account) some like this :
 --  -t = thread / cpu
 
 
++
 Then, next time and every time you want mining, because you had finished the installation on your android, you can do just :
 - cd termux-ubuntu
 - ./start-ubuntu.sh
@@ -44,5 +46,9 @@ Then, next time and every time you want mining, because you had finished the ins
 - ./cpuminer -a x11 -o stratum+tcp://x11.eobot.com:5555 -u eobot.[Your ID of EoBot] -p x -t [how many cpu you want to allocate]
 
 
-- exit for quit
++
++
+   - exit for quit
+   
+.
 
