@@ -24,7 +24,9 @@ Write and run by click enter the scripts/ commands below :
 - apt install automake autoconf pkg-config libcurl14-openssl-dev libjansson-dev libssl-dev libgmp-dev make g++
 - git clone https://github.com/tpruvot/cpuminer-multi
 - ./build.sh
+
 finish.
+
 
 now you can try your pool (eobot account) some like this :
 - ./cpuminer -a x11 -o stratum+tcp://x11.eobot.com:5555 -u eobot.991010 -p x -t 4
@@ -34,10 +36,13 @@ now you can try your pool (eobot account) some like this :
 --  -p = password
 --  -t = thread / cpu
 
+
 Then, next time and every time you want mining, because you had finished the installation on your android, you can do just :
 - cd termux-ubuntu
 - ./start-ubuntu.sh
 - cd cpuminer/cpuminer-multi
 - ./cpuminer -a x11 -o stratum+tcp://x11.eobot.com:5555 -u eobot.[Your ID of EoBot] -p x -t [how many cpu you want to allocate]
 
+
 - exit for quit
+
